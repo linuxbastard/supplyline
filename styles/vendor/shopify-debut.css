@@ -1,0 +1,42 @@
+/*
+Error: Invalid CSS after "$color-text: ": expected expression (e.g. 1px, bold), was "{{ settings.col..."
+        on line 387 of /home/linuxbastard/websites/shopify-projects/SupplyLine/styles/vendor/shopify-debut.scss
+
+382: $grid-breakpoint-has-push: ($small, $medium-up);
+383: 
+384: /*================ Color Variables ================*\/
+385: 
+386: // Text colors
+387: $color-text: {{ settings.color_text }};
+388: $color-text-shadow: rgba(0,0,0,0.4);
+389: $color-body-text: {{ settings.color_body_text }};
+390: $color-sale-text: {{ settings.color_sale_text }};
+391: $color-small-button-text-border: {{ settings.color_small_button_text_border }};
+392: $color-text-field: {{ settings.color_text_field }};
+
+Backtrace:
+/home/linuxbastard/websites/shopify-projects/SupplyLine/styles/vendor/shopify-debut.scss:387
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/script/lexer.rb:231:in `expected!'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:723:in `assert_expr'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/script/parser.rb:68:in `parse'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1134:in `sass_script'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:642:in `variable'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:290:in `render'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:400:in `run'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+/usr/share/koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+/usr/share/koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+/usr/share/koala/bin/sass:22:in `load'
+/usr/share/koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"$color-text: \": expected expression (e.g. 1px, bold), was \"{{ settings.col...\"\A         on line 387 of /home/linuxbastard/websites/shopify-projects/SupplyLine/styles/vendor/shopify-debut.scss\A \A 382: $grid-breakpoint-has-push: ($small, $medium-up);\A 383: \A 384: /*================ Color Variables ================*/\A 385: \A 386: // Text colors\A 387: $color-text: {{ settings.color_text }};\A 388: $color-text-shadow: rgba(0,0,0,0.4);\A 389: $color-body-text: {{ settings.color_body_text }};\A 390: $color-sale-text: {{ settings.color_sale_text }};\A 391: $color-small-button-text-border: {{ settings.color_small_button_text_border }};\A 392: $color-text-field: {{ settings.color_text_field }};"; }
